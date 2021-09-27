@@ -34,7 +34,7 @@ function randomImage(){
         console.log(err);
     }
     };
-}
+
 
 generator.addEventListener('click', () => {
     console.log('You found the button!')
