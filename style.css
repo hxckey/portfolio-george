@@ -28,7 +28,7 @@ nav {
     text-decoration-style: none;
 }
 
-#motivate-button {
+#generator {
     background-color: var(--sea);
     color: var(--ice);
     display: inline-block;
@@ -36,7 +36,3 @@ nav {
     font-family: monospace;
 }
 
-#motivate-button::hover {
-    background-color: var(--sky);
-}
-    
