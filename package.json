@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "requirejs": "^2.3.6",
+    "unsplash-js": "^7.0.15"
+  }
+}
