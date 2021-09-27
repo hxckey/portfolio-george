@@ -1,5 +1,5 @@
 
-
+import { createApi } from 'unsplash-js'
 
 const generator = document.getElementById('generator')
 const randomURL = 'https://api.unsplash.com/photos'
