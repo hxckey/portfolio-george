@@ -1,6 +1,29 @@
+:root {
+    --sea: #04009A;
+    --sky: #77ACF1;
+    --turqoiuse: #3EDBF0;
+    --ice: #C0FEFC;
+}
+
+body {
+    margin: 0px;
+    display: flexbox;
+    position: relative;
+    background-color: var(--turqoiuse);
+    color: var(--sea);
+}
 
 h1 {
-    background-color: blueviolet;
-    color: cornsilk;
+    background-color: var(--sea);
+    color: var(--ice);
+    padding-left: 1rem;
+}
+
+nav {
+    background-color: var(--sky);
+    color: inherit var(--ice);
+    position: relative;
+    text-decoration: none;
+    text-decoration-style: none;
 }
     
