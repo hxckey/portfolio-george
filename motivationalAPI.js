@@ -20,12 +20,16 @@ const unsplash = createApi({
 //     })
 // };
 
+function generateMotivator() {
+    document.body.style.backgroundImage = `url('${data.results[Math.floor(Math.random() * 10)].urls.raw}')`;
+}
+
 function randomImage(){
     try{
         const url = 'https://api.unsplash.com/photos/random'
         fetch(url)
         .then(response =>response.json())
-        .then(data => );
+        .then(data => generateMotivator(data));
     } catch (err) {
         console.log(err);
     }
