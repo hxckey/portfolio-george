@@ -26,7 +26,7 @@ function generateMotivator() {
 
 function randomImage(){
     try{
-        const url = 'https://api.unsplash.com/photos/random'
+        const url = `https://api.unsplash.com/photos/random&${accessKey}`
         fetch(url)
         .then(response =>response.json())
         .then(data => generateMotivator(data));
