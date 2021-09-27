@@ -11,6 +11,7 @@ body {
     position: relative;
     background-color: var(--turqoiuse);
     color: var(--sea);
+    font-family: monospace;
 }
 
 h1 {
@@ -25,5 +26,17 @@ nav {
     position: relative;
     text-decoration: none;
     text-decoration-style: none;
+}
+
+#motivate-button {
+    background-color: var(--sea);
+    color: var(--ice);
+    display: inline-block;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+#motivate-button::hover {
+    background-color: var(--sky);
 }
     
