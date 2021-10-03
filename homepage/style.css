@@ -22,10 +22,13 @@ h1 {
 
 nav {
     background-color: var(--sky);
-    color: inherit var(--ice);
+    color: var(--ice);
     position: relative;
+}
+
+a {
     text-decoration: none;
-    text-decoration-style: none;
+    color: var(--ice);
 }
 
 #generator {
