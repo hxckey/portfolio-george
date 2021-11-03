@@ -11,13 +11,31 @@ body {
     position: relative;
     background-color: var(--turqoiuse);
     color: var(--sea);
-    font-family: monospace;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: -20px;
+    background-color: var(--sea);
+    color: var(--turqoiuse);
+    padding-left: 1rem;
+    height: 60vh;
+    width: 100vw;
 }
 
 h1 {
-    background-color: var(--sea);
-    color: var(--ice);
-    padding-left: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+header :hover {
+    font-size: 110px;
+    cursor: pointer;
 }
 
 nav {
@@ -31,11 +49,4 @@ a {
     color: var(--ice);
 }
 
-#generator {
-    background-color: var(--sea);
-    color: var(--ice);
-    display: inline-block;
-    text-decoration: none;
-    font-family: monospace;
-}
 
