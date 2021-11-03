@@ -39,14 +39,26 @@ header :hover {
 }
 
 nav {
-    background-color: var(--sky);
-    color: var(--ice);
+    color: var(--turqoiuse);
     position: relative;
+    height: 10vh;
+    background-color: var(--sea);
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 10px slategray;
 }
 
 a {
     text-decoration: none;
     color: var(--ice);
+    font-size: 25px;
+    margin-top: 3rem;
+    height: fit-content;
+}
+
+a:hover {
+    background-color: var(--sky);
+    opacity: 0.9;
 }
 
 
