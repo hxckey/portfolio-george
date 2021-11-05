@@ -1,0 +1,67 @@
+body {
+    background-color: #FF7600;
+    margin: 0;
+}
+
+.wave {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding-left: 0;
+    width: 105vw;
+    overflow: hidden;
+    line-height: 0;
+    transition: all 1s;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(154% + 1.3px);
+    height: 386px;
+    transition: all 1s;
+}
+
+.wave .shape-fill {
+    fill: #000000;
+    transition: all 1s;
+}
+
+
+#george {
+    font-family: 'Inter', sans-serif;
+    font-size: 7rem;
+    padding-top: 10rem;
+    transition: all 1s;
+    padding-left: 2rem;
+}
+
+#about {
+    display: none;
+    transition: all 1s;
+    position: absolute;
+    right: 10%;
+    z-index: 1;
+    top: 6rem;
+}
+
+#projects {
+    display: none;
+    transition: all 1s;
+    position: absolute;
+    right: 10%;
+    z-index: 1;
+    top: 10rem;
+}
+
+a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+a:hover {
+    color: #FF7600;
+}
