@@ -79,3 +79,23 @@ li {
     color: black;
     font-size: 1.5rem;
 }
+
+.custom-shape-divider-top-1636132694 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1636132694 svg {
+    position: relative;
+    display: block;
+    width: calc(143% + 1.3px);
+    height: 145px;
+}
+
+.custom-shape-divider-top-1636132694 .shape-fill {
+    fill: #000000;
+}
