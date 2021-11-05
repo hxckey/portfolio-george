@@ -1,4 +1,4 @@
-const wave = document.getElementById('wave')
+const wave = document.getElementsById('wave')
 const name = document.getElementById('george')
 const linkSpace = document.getElementById('wave-section')
 let about = document.getElementById('about')
