@@ -1,16 +1,18 @@
 body {
     background-color: #FF7600;
+    margin: 0;
 }
 
 .wave {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
-    width: 100%;
-    /* add some kind of on hover effect that moves this up */
-    /* height: 80%; */
+    margin: 0;
+    padding-left: 0;
+    width: 105vw;
     overflow: hidden;
     line-height: 0;
+    transition: all 1s;
 }
 
 .wave svg {
@@ -18,14 +20,20 @@ body {
     display: block;
     width: calc(154% + 1.3px);
     height: 386px;
+    transition: all 1s;
 }
 
 .wave .shape-fill {
     fill: #000000;
+    transition: all 1s;
 }
+
 
 #george {
     font-family: 'Inter', sans-serif;
     font-size: 7rem;
     padding-top: 10rem;
+    transition: all 1s;
+    padding-left: 2rem;
 }
+
