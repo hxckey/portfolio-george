@@ -1,64 +1,31 @@
-:root {
-    --sea: #04009A;
-    --sky: #77ACF1;
-    --turqoiuse: #3EDBF0;
-    --ice: #C0FEFC;
-}
-
 body {
-    margin: 0px;
-    display: flexbox;
-    position: relative;
-    background-color: var(--turqoiuse);
-    color: var(--sea);
-    font-family: 'Inter', sans-serif;
+    background-color: #FF7600;
 }
 
-header {
-    position: fixed;
-    top: -20px;
-    background-color: var(--sea);
-    color: var(--turqoiuse);
-    padding-left: 1rem;
-    height: 60vh;
-    width: 100vw;
-}
-
-h1 {
+.wave {
     position: absolute;
     bottom: 0;
-    left: 10%;
-    font-size: 100px;
-    padding: 0;
-    margin: 0;
+    left: 0;
+    width: 100%;
+    /* add some kind of on hover effect that moves this up */
+    /* height: 80%; */
+    overflow: hidden;
+    line-height: 0;
 }
 
-header :hover {
-    font-size: 110px;
-    cursor: pointer;
-}
-
-nav {
-    color: var(--turqoiuse);
+.wave svg {
     position: relative;
-    height: 10vh;
-    background-color: var(--sea);
-    display: flex;
-    justify-content: space-around;
-    box-shadow: 5px 5px 10px slategray;
+    display: block;
+    width: calc(154% + 1.3px);
+    height: 386px;
 }
 
-a {
-    text-decoration: none;
-    color: var(--ice);
-    font-size: 25px;
-    margin-top: 3rem;
-    height: fit-content;
+.wave .shape-fill {
+    fill: #000000;
 }
 
-a:hover {
-    background-color: var(--sky);
-    opacity: 0.9;
+#george {
+    font-family: 'Inter', sans-serif;
+    font-size: 7rem;
+    padding-top: 10rem;
 }
-
-
