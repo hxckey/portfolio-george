@@ -108,3 +108,15 @@ li {
 .topwave .shape-fill {
     fill: #000000;
 }
+
+footer {
+    background-color: black;
+    z-index: 1;
+    position: fixed;
+    bottom: 0;
+}
+
+footer > p, a {
+    color: white;
+    font-size: 1rem;
+}
