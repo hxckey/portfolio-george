@@ -112,11 +112,14 @@ li {
 footer {
     background-color: black;
     z-index: 1;
-    position: fixed;
+    position: absolute;
     bottom: 0;
+    display: block;
+    width: 100vw;
 }
 
 footer > p, a {
     color: white;
     font-size: 1rem;
+    padding-left: 2rem;
 }
