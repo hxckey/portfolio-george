@@ -10,7 +10,7 @@ body {
     left: 0;
     margin: 0;
     padding-left: 0;
-    width: 105vw;
+    width: 100vw;
     overflow: hidden;
     line-height: 0;
     transition: all 1s;
@@ -70,12 +70,56 @@ a:hover {
 h2 {
     color: white;
     font-size: 6rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
+    padding-left: 7rem;
+    padding-top: 0;
     margin-top: 1rem;
+    position: relative;
+}
+
+ul {
+    list-style-type: square;
+    width: 85vw;
+    margin-left: 5rem;
 }
 
 li {
     color: black;
     font-size: 1.5rem;
+    padding: 0 3rem;
+}
+
+.topwave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg) scaleY(1.35);
+}
+
+.topwave svg {
+    position: relative;
+    display: block;
+    width: calc(143% + 1.3px);
+    height: 145px;
+}
+
+.topwave .shape-fill {
+    fill: #000000;
+}
+
+footer {
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100vw;
+}
+
+footer > p, a {
+    color: white;
+    font-size: 1rem;
+    padding-left: 2rem;
 }
