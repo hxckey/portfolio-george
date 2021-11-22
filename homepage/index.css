@@ -133,3 +133,10 @@ footer > p, a {
     font-size: 1rem;
     padding-left: 2rem;
 }
+
+#homebtn {
+    font-size: 2.5rem;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
